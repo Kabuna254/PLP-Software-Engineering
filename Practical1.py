@@ -31,7 +31,7 @@ elif 59 <= marks <= 68:
     print("Grade: C")
 elif 49 <= marks <= 58:
     print("Grade: D")
-elif 39 <= marks <= 48:
+elif 1 <= marks <= 48:
     print("Fail")
 else:
     print("ERROR")
