@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page</title>
+</head>
+<body>
+    
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Home</li>
+        <li>About us</li>
+        <li>Contact</li>
+    </ol>
+    
+    <h2>Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/31236872/pexels-photo-31236872/free-photo-of-joyful-celebration-at-a-holi-festival.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="ColorFestival" width="300">
+    
+    <h2>Contacts</h2>
+    <table border="2">
+        <tr><th>Name</th><th>Mobile</th><th>Email</th></tr>
+        <tr><td>Daniel Kabuna</td><td>+123456789</td><td>danielkabuna@gmail.com</td></tr>
+        <tr><td>Kabuna Daniel</td><td>+987654321</td><td>youngdanny683@gmail.com</td></tr>
+    </table>
+    
+    <h2>Registration Form</h2>
+    <form>
+        <label>Name: <input type="text" required></label><br>
+        <label>Email: <input type="email" required></label><br>
+        <label>Password: <input type="password" required></label><br>
+        <label>DOB: <input type="date" required></label><br>
+        
+        <label>Gender:
+            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="female"> Female
+        </label><br>
+        
+        <label>Country:
+            <select name="country" required>
+                <option value="">Select...</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+            </select>
+        </label><br>
+        
+        <label>Hobbies:<br>
+            <input type="checkbox" name="hobby" value="Reading"> Reading
+            <input type="checkbox" name="hobby" value="Traveling"> Traveling
+            <input type="checkbox" name="hobby" value="Sports"> Sports
+        </label><br>
+        
+        <input type="submit" value="Register">
+    </form>    
+</body>
+</html>
