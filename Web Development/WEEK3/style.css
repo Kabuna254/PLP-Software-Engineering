@@ -1,0 +1,43 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('https://images.pexels.com/photos/2504952/pexels-photo-2504952.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace with your image filename */
+    background-size: cover; /* Ensures the image covers the full screen */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the title (Class Selector) */
+.title {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+/* Styling the paragraph (Class Selector) */
+.description {
+    color: #0a0a0a;
+    font-size: 18px;
+    margin: 10px auto;
+    width: 60%;
+}
+
+/* Styling an image (Class Selector) */
+.styled-image {
+    width: auto;
+    border: 5px solid #778894;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Styling the footer text (ID Selector) */
+#footer-text {
+    font-size: 16px;
+    color: #faecec;
+    margin-top: 20px;
+    padding: 10px;
+}
