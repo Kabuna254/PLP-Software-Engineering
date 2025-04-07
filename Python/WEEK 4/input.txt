@@ -1,0 +1,5 @@
+This is a test file.
+It contains multiple lines.
+We will process its content.
+The goal is to count the words.
+Finally, we'll convert text to uppercase.
