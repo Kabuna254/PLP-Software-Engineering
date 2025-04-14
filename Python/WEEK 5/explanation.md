@@ -1,4 +1,3 @@
-
 ### **Code Explanation:**
 
 1. **Parent Class: `Playstation`**
@@ -133,5 +132,3 @@ for ps in [ps1, ps2]:
 - **Polymorphism**: The `game()` method is overridden in both `PS4` and `PS5`, allowing each object to respond differently to the same method call.
 
 ---
-
-This is ready for you to copy and use. Let me know if you need any further explanation!
