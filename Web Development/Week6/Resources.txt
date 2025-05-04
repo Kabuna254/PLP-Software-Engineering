@@ -1,0 +1,22 @@
+AI Prompts for Deeper Learning 
+To maximize the potential of AI tools like ChatGPT, try using these prompts:
+
+Event Handling
+"Explain how addEventListener works in JavaScript, with practical examples for common events like onclick and onmouseover."
+"Write code to demonstrate the difference between inline events and event listeners in JavaScript."
+"How can I prevent default actions for events like form submission? Provide examples."
+
+Building Interactive Elements
+"Show me how to create a modal in JavaScript step by step, with dynamic content loading."
+"How can I make a slider control that updates a value dynamically in real-time?"
+"Explain how to use JavaScript to toggle visibility of elements on a webpage."
+
+Form Validation
+"Write a script to validate a form with required fields, email validation, and password strength check."
+"How can I provide real-time feedback to users filling out a form using JavaScript?"
+"Demonstrate custom form validation using JavaScript’s setCustomValidity method."
+
+Advanced
+"How can I optimize event handling for multiple elements, such as using event delegation?"
+"Explain the use of debounce in event handling with a practical example."
+"Create a step-by-step tutorial for building an interactive to-do list app with JavaScript."
