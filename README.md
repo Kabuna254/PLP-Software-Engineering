@@ -1,1 +1,1 @@
-This is me playing around with git and github.
+A Short Course Program diving into software engineering by PowerLearnProject
