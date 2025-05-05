@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column; /* This sets the main axis to be vertical */
+    align-items: stretch; /* This stretches the main container's height */
+    justify-content: flex-start; /* Aligns the content at the top of the container */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .works_on_smartphone main {
+    flex-direction: column; /* Ensure the layout is column for smaller screens */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: 1; /* flex: 1 1 auto; ensures the container takes the remaining space */
+    overflow-y: auto; /* Allow scroll for overflowing content */
+    margin: 20px;
+  }
+  
+  article {
+    flex: 2; /* Ensures the article gets more space */
+    overflow-y: auto; /* Allows scrolling inside article if content overflows */
+    margin: 10px;
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Round the corners of the content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for style */
+  }
+  
+  aside {
+    flex: 1; /* Gives the aside less space than the article */
+    overflow-y: auto; /* Allows scrolling inside aside */
+    margin: 10px;
+  }
+  
+  table {
+    width: 100%; /* Ensures table uses full width available */
+    border-collapse: collapse; /* Makes the table cleaner */
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Arrange form elements vertically */
+    gap: 15px; /* Add spacing between form elements */
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .logo {
+    font-size: 2em;
+    color: #FFD700;
+    margin: 0;
+  }
+  
