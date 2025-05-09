@@ -1,98 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KIBKAB FX TRADERS</title>
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body class="works_on_smartphone">
-    <header>
-      <h1 class="logo">&#9733; KIBKAB FX TRADERS</h1> <!-- Updated logo with name -->
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="tweets.html">Mentorship</a></li>
-        </ul>
-      </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/backgroundImage2.jpg" type="image/x-icon">
+    <title>About Daniel Kabuna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="home">
+        <div class="cont">
+            <h1>Get to know me</h1>
+            <p>Welcome to my portfolio website</p>            
+        </div>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#home" id="home-link">Home</a></li>
+                <li><a href="#about" id="about-link">About me</a></li>
+                <li><a href="#education" id="education-link">Education</a></li>
+                <li><a href="#P-languages" id="languages-link">Programming Languages</a></li>
+                <li><a href="#interests" id="interests-link">Interests and Hobbies</a></li>
+                <li><a href="#projects" id="projects-link">Projects</a></li>
+                <li><a href="#contact" id="contact-link">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-      <article>
-        <h1>XAUUSD signals</h1>
-        <h2>USDCAD signals</h2>
-        <h3>AUDCAD signals</h3>
-        <a href="https://www.tradingview.com/chart/HSscKhBX/">
-          <img src="Images/wallhaven-ex5zww.jpg" alt="Clickable image" class="image-gallery">
-        </a>
-        <p>Stay on our free channel</p>
-        <p>If you're interested in getting amazing signals daily</p>
-        <p>Up to 90% accuracy for free</p>
-        <p>Contact me to subscribe or invest</p>
-        <p>For the mentorship program, visit <a href="tweets.html">Mentorship</a></p>
-        <button id="changeButton">Click me!</button>
-        <button id="nextImage">Next Image</button>
-      </article>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <img src="Images/dp.jpeg" alt="Daniel Kabuna" id="profile-pic">
+            <h3>About Me</h3>
+            <p id="about-text">Hey there! I’m Daniel Kabuna, and I’m currently diving into the world of coding. I’m passionate about problem-solving
+                 and building things from the ground up. As I continue learning, I’m excited to pursue a future career as a software
+                  engineer or data scientist, where I can create impactful solutions and contribute to the ever-evolving tech landscape.
+            </p>
+        </div>
+    </section>
 
-      <article>
-        <h2>Table of Learners</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Age</th>
-              <th>Country</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>John</td>
-              <td>25</td>
-              <td>USA</td>
-            </tr>
-            <tr>
-              <td>Emily</td>
-              <td>28</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Michael</td>
-              <td>32</td>
-              <td>Australia</td>
-            </tr>
-            <tr>
-              <td>Sophia</td>
-              <td>21</td>
-              <td>UK</td>
-            </tr>
-          </tbody>
-        </table>
-      </article>
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p id="education-text">I hold a bachelor's degree in Business Innovation and Technology Management from 
+                Jomo Kenyatta University of Agriculture and Technology.<br>
+                I Graduated on June 2023
+            </p>
+            <a href="Files/Dan resume025.pdf" download id="download-resume">Download CV/Resume</a>
+        </div>
+    </section>
 
-      <article>
-        <h2>Form Validation</h2>
-        <form id="form">
-          <label for="email">Email:</label>
-          <input type="email" id="email" required>
-          <p id="emailFeedback"></p>
+    <!-- Programming Languages Section -->
+    <section id="P-languages" class="P-languages">
+        <div class="container">
+            <h2>Programming Languages</h2>
+            <p id="languages-text">
+                I am proficient in several programming languages, each enabling me to work across various 
+                domains of web development, data analysis, and database management. I have a strong foundation in 
+                <span class="icon">&#60;&#47;&#62;</span>HTML and <span class="icon">&#x1F4C4;</span>CSS,
+                which allows me to build and style responsive and user-friendly websites. I am also skilled in 🐍Python, 
+                a versatile language used for a wide range of applications from web development to data science. My experience 
+                with <span class="icon">&#128218;</span>MySQL ensures I can efficiently manage databases and perform complex queries. 
+                Additionally, 
+                I am knowledgeable in <span class="icon">&#x1F4C8;</span>R, particularly for data analysis and statistical computing. Finally, 
+                I have hands-on experience with ☕JavaScript, which I use to add interactivity and dynamic features to web applications.
+            </p>
+        </div>
+    </section>        
+            
+    <!-- Interests and Hobbies Section -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <h2>Interests and Hobbies</h2>
+            <p id="interests-text"> I'm passionate about technology, always curious about how things work and how I can build something new. 
+                I love coding and exploring AI, but I also enjoy the creative side of things—whether it’s designing a website, 
+                analyzing data trends, or brainstorming innovative ideas. Outside of tech, I’m into pool billiards, swimming, music, and 
+                participating in outdoor activities. I like a good challenge, whether it's solving a tough problem or competing 
+                in a hackathon. Learning and growing through new experiences keeps me motivated every day.
+            </p>
+        </div>
+    </section>
 
-          <label for="password">Password:</label>
-          <input type="password" id="password" required>
-          <p id="passwordFeedback"></p>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
 
-          <button type="submit" id="submit">Submit</button>
-        </form>
-      </article>
+            <!-- First Project -->
+            <div class="project-item" id="project-1">
+                <h3>Project 1</h3>
+                <p>
+                    <h4>Building a Calculator</h4>
+                    I built a simple calculator as a project to demonstrate my understanding of core programming concepts like functions, conditionals, and loops. I applied HTML and CSS for the user interface. 
+                    This project helped me improve my problem-solving skills and gave me hands-on experience with front-end
+                    development, making the calculator not just a functional tool but also a way to showcase my ability to 
+                    create interactive, user-friendly web applications.<br>
+                    Here's a link to my project: <a href="https://github.com/Kabuna254/PLP-Software-Engineering/blob/main/Python/WEEK%201/calculator.py" id="calculator-link"><b>Calculator</b></a>
+                </p>
+            </div>
 
-      <aside>
-        <p>Placeholder to add comment thread later</p>
-      </aside>
-    </main>
+            <!-- Second Project -->
+            <div class="project-item" id="project-2">
+                <h3>Project 2</h3>
+                <p> I created a grade-assigning system that takes test scores and assigns letter grades based on thresholds
+                    using Python. The system is interactive and easy to use. 
+                    This project helped me apply conditionals, improve problem-solving skills, and create a practical tool 
+                    for grading.
+                    Here's a link to my project: <a href="https://github.com/Kabuna254/PLP-Software-Engineering/blob/main/Python/WEEK%203/if.py" id="grading-link"><b>Grading System</b></a>
+                </p>
+            </div>
+        </div>
+    </section>
 
+    <!-- Gallery Section -->
+<section id="gallery" class="gallery">
+    <div class="container">
+        <h2>Projects Gallery</h2>
+        <img src="Images/pic1.jpg" alt="Gallery Image" class="gallery-img" id="gallery-img">
+        <p>Enjoy a slideshow of my favorite moments and projects!</p>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required id="name-input">
+                <input type="email" name="email" placeholder="Your Email" required id="email-input">
+                <textarea name="message" placeholder="Your Message" required id="message-input"></textarea>
+                <button type="submit" id="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Tabs Section -->
+<section id="tabs" class="tabs">
+    <div class="container">
+        <!-- Tab Buttons -->
+        <div class="tab-buttons">
+            <button class="tab-button active" data-tab="tab1">About Me</button>
+            <button class="tab-button" data-tab="tab2">Education</button>
+            <button class="tab-button" data-tab="tab3">Projects</button>
+        </div>
+        <!-- Tab Content -->
+        <div class="tab-content">
+            <div id="tab1" class="tab-panel active">
+                <p>Hey there! I’m Daniel Kabuna, and I’m currently diving into the world of coding...</p>
+            </div>
+            <div id="tab2" class="tab-panel">
+                <p>I hold a bachelor's degree in Business Innovation and Technology Management...</p>
+            </div>
+            <div id="tab3" class="tab-panel">
+                <p>Here are some of my projects, including a calculator and a grading system...</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer Section -->
     <footer>
-      <p>Made by Daniel Kabuna - <a href="https://html.com/tables/" target="_blank">here</a></p>
+        <div class="container">
+            <p><i>&copy2025 Daniel Kabuna</i></p>
+        </div>
     </footer>
-
     <script src="script.js"></script>
-  </body>
+</body>
 </html>

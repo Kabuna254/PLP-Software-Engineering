@@ -1,0 +1,373 @@
+/* General Styles */
+/* Basic styles for the body and global elements */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e3cbcb3e;
+    background-image: url("Images/backgroundImage2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000;
+    text-align: center;
+}
+
+/* Container Styles */
+/* Centralized container for consistent layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+/* Styles for the header section */
+header {
+    width: 80%;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+
+/* About Section Image Styles */
+/* Styling for the profile image in the About section */
+.about img {
+    width: 20%;
+    height: 70%;
+    object-fit: cover;
+    float: left;
+    margin-left: -20px;
+    margin-top: 50px;
+    border-radius: 0 10px 10px 0px;
+}
+
+/* Header Title Styles */
+/* Styling for the main title in the header */
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+/* Header Paragraph Styles */
+/* Styling for the subtitle in the header */
+header p {
+    font-size: 1.3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation Bar Styles */
+/* Styling for the navigation menu */
+nav {
+    padding: 10px 0;
+    width: auto;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Unordered List Styles for Navigation */
+/* Styling for the navigation list */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* List Item Styles */
+/* Styling for individual navigation items */
+ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+/* Navigation Link Styles */
+/* Styling for navigation links */
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+/* Active Nav Link */
+/* Styling for the active navigation link */
+ul li a.active {
+    color: #4CAF50;
+    font-weight: bold;
+    border-bottom: 2px solid #4CAF50;
+}
+
+/* Hover Effects for Navigation Links */
+/* Styling for hover effects on navigation links */
+ul li a:hover {
+    background-color: #7d75755f;
+    border-radius: 5px;
+}
+
+/* About Section Styles */
+/* Styling for the About section */
+.about {
+    display: flex;
+    text-align: center;
+}
+
+/* Heading Styles */
+/* General styling for section headings */
+h3 {
+    margin-top: 50px;
+}
+
+/* Section Styles */
+/* General styling for all sections */
+section {
+    margin: 40px auto;
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1200px;
+}
+
+/* Section Heading Styles */
+/* Styling for section titles */
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+/* Project Item Styles */
+/* Styling for individual project items */
+.project-item {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effects for Project Items */
+/* Styling for hover effects on project items */
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Input & Textarea Styles */
+/* Styling for form inputs and textareas */
+.contact form input, .contact form textarea {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus Effects for Input & Textarea */
+/* Styling for focus effects on form inputs and textareas */
+.contact form input:focus, .contact form textarea:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+/* Button Styles */
+/* Styling for buttons */
+.contact form button {
+    padding: 15px 25px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effects for Button */
+/* Styling for hover effects on buttons */
+.contact form button:hover {
+    background-color: #444;
+}
+
+/* Submit Button Styles */
+/* Styling for the submit button */
+#submit-button {
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#submit-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Footer Styles */
+/* Styling for the footer */
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Gallery Section */
+/* Styling for the gallery section */
+.gallery {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.gallery .gallery-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.gallery .gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.gallery p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Hovered Link Style */
+/* Styling for hovered links */
+.hovered-link {
+    color: #ff0000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Tabs Section */
+/* Styling for the tabs section */
+.tabs {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #ddd;
+    color: #333;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tab-button:hover {
+    background-color: #bbb;
+}
+
+.tab-content {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+/* Global transition for smoother interactions */
+a, button, .tab-button {
+    transition: all 0.3s ease;
+}
+
+/* Mobile Responsive Styles */
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .container, header {
+        width: 95%;
+        padding: 10px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li {
+        margin: 10px 0;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about img {
+        width: 50%;
+        height: auto;
+        float: none;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+    .tab-buttons {
+        flex-direction: column;
+    }
+
+    .tab-button {
+        margin: 5px 0;
+        width: 90%;
+    }
+
+    .gallery .gallery-img {
+        width: 90%;
+        height: auto;
+    }
+
+    #submit-button {
+        width: 90%;
+        font-size: 1rem;
+    }
+}
